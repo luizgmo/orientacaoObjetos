@@ -1,0 +1,8 @@
+# ignorar arquivos .class
+*.class
+
+# ignorar arquivos temporários
+*~
+
+# ignorar a pasta build
+build/
