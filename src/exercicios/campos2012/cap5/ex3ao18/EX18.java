@@ -1,4 +1,4 @@
-package exercicios.campos2012.cap5.ex18;
+package exercicios.campos2012.cap5.ex3ao18;
 
 import java.util.Scanner;
 
