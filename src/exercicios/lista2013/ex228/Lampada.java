@@ -4,13 +4,15 @@ import exercicios.lista2013.ex223.Contador;
 
 public class Lampada {
     
-    boolean estadoDaLampada;
+    private boolean estadoDaLampada;
     
     private int contadorAcesa;
     
     public void acende(){
-        estadoDaLampada = true;
-        contadorAcesa++;
+        if (estadoDaLampada == false){
+            estadoDaLampada = true;
+            contadorAcesa++;
+        }   
     }
     
     public void apaga(){
