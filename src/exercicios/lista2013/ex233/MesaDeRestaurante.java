@@ -1,17 +1,17 @@
 package exercicios.lista2013.ex233;
 
 public class MesaDeRestaurante {
-    private int qntdRefeicao;
+    private double qntdRefeicao;
     private int qntdSobremesa;
     private int qntdRefrigerante2L;
     private int qntdRefrigerante600mL;
     private int qntdCerveja;
     
-    private static final double PRECO_REFEICAO = 30;
-    private static final double PRECO_SOBREMESA = 10;
-    private static final double PRECO_REFRIGERANTE2L = 12;
-    private static final double PRECO_REFRIGERANTE600ML = 6;
-    private static final double PRECO_CERVEJA = 5;
+    private double PRECO_REFEICAO = 30;
+    private double PRECO_SOBREMESA = 10;
+    private double PRECO_REFRIGERANTE2L = 12;
+    private double PRECO_REFRIGERANTE600ML = 6;
+    private double PRECO_CERVEJA = 5;
     
     public void adicionaAoPedido(String item, int qntd){
         switch(item.toLowerCase()){
