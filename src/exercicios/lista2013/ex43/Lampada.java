@@ -1,4 +1,4 @@
-package exercicios.lista2013.ex29;
+package exercicios.lista2013.ex43;
 
 public class Lampada {
     boolean estadoDaLampada;
@@ -7,21 +7,25 @@ public class Lampada {
     public Lampada(double w){
         setWatts(w);
     }
-
-    private double getWatts() {
-        return watts;
+    
+    public Lampada(){
+        setWatts(60);
     }
 
     private void setWatts(double watts) {
         this.watts = watts;
     }
     
+    private void setEstadoDaLampada(boolean estadoDaLampada) {
+        this.estadoDaLampada = estadoDaLampada;
+    }
+    
     public void acende(){
-        estadoDaLampada = true;
+        setEstadoDaLampada(true);
     }
     
     public void apaga(){
-        estadoDaLampada = false;
+        setEstadoDaLampada(false);
     }
     
     public void mostraEstado(){
@@ -42,3 +46,4 @@ public class Lampada {
     
     
 }
+
