@@ -2,7 +2,7 @@ package exercicios.lista2013.ex27;
 
 public class Lampada {
     
-    boolean estadoDaLampada;
+    private boolean estadoDaLampada;
     
     public void acende(){
         estadoDaLampada = true;
