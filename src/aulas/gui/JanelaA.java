@@ -48,11 +48,6 @@ public class JanelaA extends JFrame implements ActionListener{
         setVisible(true);
     }
     
-    
-    
-    
-    
-    
     public static void main(String[] args) {
         JanelaA janela = new JanelaA();
     }
